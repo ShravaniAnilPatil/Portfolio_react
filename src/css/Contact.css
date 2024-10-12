@@ -1,0 +1,35 @@
+.contact-container {
+    padding: 50px;
+    background-color: #101820;
+    color: white;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: #640faf;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #9a0faf;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #720faf;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #024950;
+  }
+  

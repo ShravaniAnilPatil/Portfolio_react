@@ -1,0 +1,23 @@
+.skills-container {
+    padding: 100px;
+    background-color: #101820;
+    color: white;
+    height: 100vh;
+
+  }
+  
+  h1 {
+    color: #0fa4af;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #afdde5;
+  }
+  

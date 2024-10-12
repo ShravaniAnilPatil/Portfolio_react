@@ -1,0 +1,127 @@
+/* Global Styles */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #101820;
+    color: #ffffff;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+ 
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .nav-links a:hover {
+    color: #afdde5;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    background-color: #101820;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    background-color: #4c0faf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .cta-btn:hover {
+    background-color: #2b065b;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+  }
+  
+  /* Sections */
+  section {
+    padding: 100px 50px;
+  }
+  
+  /* Projects Section */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Skills Section */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skill-badge {
+    background-color: #640faf;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-container {
+    background-color: #101820;
+    padding: 50px;
+    color: #afdde5;
+  }
+  
+  /* Contact Section */
+  .contact-container {
+    background-color: #1c1c1c;
+    padding: 50px;
+  }
+  
