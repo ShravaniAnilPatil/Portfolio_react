@@ -1,4 +1,4 @@
-/* Global Styles */
+Global Styles
 html {
     scroll-behavior: smooth;
   }
@@ -62,17 +62,9 @@ html {
   .cta-btn:hover {
     background-color: #2b065b;
   }
-  
   .hero-image {
     max-width: 40%;
   }
-  
-  /* Sections */
-  section {
-    padding: 100px 50px;
-  }
-  
-  /* Projects Section */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

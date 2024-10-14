@@ -1,23 +1,60 @@
-.skills-container {
-    padding: 100px;
-    background-color: #101820;
-    color: white;
-    height: 100vh;
+h1 {
+  color: #0fa4af;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  animation: fadeInDown 1s ease-in-out;
+}
 
+.skills-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skills-list li {
+  padding: 15px;
+  font-size: 1.4rem;
+  color: #afdde5;
+  background-color: #0fa4af;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-list li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.skills-list li::before {
+  content: "✔"; 
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: white;
+}
+
+.skills-list li:hover::before {
+  content: "🚀"; 
+}
+
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
   }
-  
-  h1 {
-    color: #0fa4af;
+  100% {
+      opacity: 1;
+      transform: translateY(0);
   }
-  
-  .skills-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills-list li {
-    padding: 10px 0;
-    font-size: 1.2rem;
-    color: #afdde5;
-  }
-  
+}
