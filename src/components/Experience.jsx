@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Experience.css'; // Make sure to create this CSS file
+import '../css/Experience.css'; 
 
 function Experience({ experiences }) {
   const handleCardClick = (title) => {

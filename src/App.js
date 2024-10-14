@@ -21,7 +21,7 @@ function App() {
       title: 'Junior Business Analyst',
       company: 'Amdocs',
       date: 'Oct 2024 - Present',
-      description: 'gather and analyze business requirements to design effective solutions while collaborating with stakeholders.',
+      description: 'Gather and analyze business requirements to design effective solutions while collaborating with stakeholders.',
     },
     {
       id: 2,
